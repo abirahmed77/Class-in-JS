@@ -5,10 +5,10 @@
 
     <style>
       body {
-        background-color: rgb(192, 246, 255);
+        background-color: rgb(180, 244, 255);
       }
 
-      h2 {
+      h1 {
         font-family: cursive;
         color: cornflowerblue;
       }
@@ -17,11 +17,15 @@
         font-size: 20px;
         font-weight: bold;
       }
+
+      #greethings {
+        font-size: 20px;
+      }
     </style>
   </head>
 
   <body>
-    <h2>JavaScript Class Inheritance</h2>
+    <h1>JavaScript Class Inheritance</h1>
     <p id="details"></p>
     <p id="greethings"></p>
 
@@ -51,7 +55,7 @@
         }
       }
 
-      let myStudent = new Grade("Abir", "grade 6");
+      let myStudent = new Grade("Abir", "grade 8");
       document.getElementById("details").innerHTML = myStudent.show();
 
       document.getElementById("greethings").innerHTML = Student.hello();
